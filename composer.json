@@ -1,0 +1,26 @@
+{
+  "name": "adiafora/measure",
+  "description": "The package for measuring the time spent on script execution. Also to measure the memory expended",
+  "keywords": ["laravel", "measure", "debug"],
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Zhidkov",
+      "email": "zhidkoff@list.ru"
+    }
+  ],
+  "require": {
+    "php": "^7.4.0 | ^8.0.0",
+    "symfony/var-dumper": "^5.0 | ^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Adiafora\\Measure\\": "src"
+    },
+    "classmap": [],
+    "files": [
+      "helpers/helpers.php"
+    ]
+  }
+}
