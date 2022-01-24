@@ -57,7 +57,7 @@ class Measure
      */
     public function timeCalculate(int $symbols = 2): string
     {
-        return round(microtime(1) - $this->microtime, $symbols);
+        return round(microtime(1) - $this->microtime, $symbols) . ' sec.';
     }
 
     /**
