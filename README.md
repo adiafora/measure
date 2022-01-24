@@ -30,7 +30,7 @@ Next, you can call the timeDump() or timeDd() method anywhere in your applicatio
     // or
     timeDd();
 ```
-You can continue to call one of the information output methods. You can also restart the counter by calling the start() method.
+You can continue to call one of the information output methods. You can also restart the counter by calling the timeStart() method.
 
 License
 -----------------------------------
